@@ -7,12 +7,12 @@ import Hero from './components/Hero';
 import FeaturedGames from './components/FeaturedGames';
 import About from './components/About';
 
-// Ambient background music URL
-const bgMusic = 'https://github.com/jarif098/cdn/raw/refs/heads/main/1.mp3';
+// Import local audio file
+import catMusic from './cat.mp3'; // Ensure the file is in the src folder
 
 function App() {
   const [isSoundOn, setIsSoundOn] = useState(false);
-  const [play, { stop }] = useSound(bgMusic, { loop: true });
+  const [play, { stop }] = useSound(catMusic, { loop: true });
 
   const toggleSound = () => {
     if (isSoundOn) {
