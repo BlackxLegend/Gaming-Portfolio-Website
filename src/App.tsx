@@ -8,7 +8,7 @@ import FeaturedGames from './components/FeaturedGames';
 import About from './components/About';
 
 // Ambient background music URL
-const bgMusic = 'https://assets.mixkit.co/music/preview/mixkit-game-music-opener-1393.mp3';
+const bgMusic = 'https://github.com/jarif098/cdn/raw/refs/heads/main/1.mp3';
 
 function App() {
   const [isSoundOn, setIsSoundOn] = useState(false);
